@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    /* Initial background color */
+    transition: background-color 0.8s ease;
+    /* Smooth transition to red */
+}
+
+.timer {
+    font-size: 3rem;
+    color: #fff;
+    /* White text color for contrast */
+}
+
+/* Red background class for the flashing effect */
+.red-background {
+    background-color: red;
+    transition: background-color 0.3s ease;
+    /* Faster transition back to black */
+}
