@@ -1,5 +1,5 @@
 const countdownElement = document.getElementById("countdown");
-const backendUrl = 'https://aa1e0d9c-5efb-4c61-b04b-37e795156356-00-3enzho20f54vc.spock.replit.dev/api/get-time'; // Replace with your actual backend URL
+const backendUrl = 'https://areplit.dev/api/get-time'; // Replace with your actual backend URL
 const audio = new Audio('alarm.mp3'); // Path to your alarm sound file
 let isFlashing = false;
 
